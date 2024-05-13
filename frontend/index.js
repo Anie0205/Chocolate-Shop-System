@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Here you can make a request to your backend to get chocolate details
         // Replace the placeholder with your actual backend URL
-        const backendUrl = 'YOUR_BACKEND_URL_HERE';
+        const backendUrl = 'https://eth-sepolia.g.alchemy.com/v2/Bn6CZfN_gOwBiWVZ_HVKtwgjrDtqS7N7';
 
         try {
             const response = await fetch(`${backendUrl}/chocolates/${chocolateId}`);
